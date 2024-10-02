@@ -1,31 +1,53 @@
-# Machine Learning Internship Project: Online Payments Fraud Detection
+# 💳 Machine Learning Internship Project: Online Payments Fraud Detection
 
-This project focuses on developing a machine learning model to classify online payment transactions as either fraudulent or non-fraudulent. Using a dataset from Kaggle that includes historical transaction data, the goal is to identify patterns and features indicative of fraud. Key aspects of the project include preprocessing the data, training a classification model, and evaluating its performance to effectively detect fraudulent transactions. The final deliverable includes the project code, provided in a PDF format, demonstrating the application of machine learning techniques to enhance online payment security.
+This project focuses on developing a machine learning model to classify online payment transactions as either fraudulent or non-fraudulent. Utilizing a dataset from Kaggle that includes historical transaction data, the goal is to identify patterns and features indicative of fraud. Key aspects of the project include data preprocessing, training a classification model, and evaluating its performance to effectively detect fraudulent transactions. The final deliverable includes the project code and findings, provided in PDF format, demonstrating the application of machine learning techniques to enhance online payment security.
 
-# This internship project includes both a minor and a major component:
+## 📊 Project Components
 
-## 1. Minor Project:
-I wrote a detailed report on "User Defined Functions in Python." The report is 7 pages long, typed, and submitted in PDF format. It delves into how user-defined functions work in Python, including their creation and practical applications.
+This internship project consists of both a minor and a major component:
 
-## 3. Major Project:
-For the major project, I developed a machine learning model for Online Payment Fraud Detection. This involved classifying transactions as either fraudulent or non-fraudulent. I worked on data preprocessing, model training, and evaluating the model’s performance to ensure it effectively detects fraud. The project, including all relevant code and findings, was submitted in PDF format as per the instructions in the attached document.
+### 1. 📄 Minor Project
+I authored a detailed report on **User Defined Functions in Python**. This 7-page document explores how user-defined functions operate in Python, including their creation and practical applications.
+
+### 2. 🚀 Major Project
+For the major project, I developed a machine learning model for **Online Payment Fraud Detection**. This involved classifying transactions as either fraudulent or non-fraudulent. My work included:
+
+- **Data Preprocessing:** Cleaning and transforming the dataset for analysis.
+- **Model Training:** Implementing various classification algorithms.
+- **Model Evaluation:** Assessing the model’s performance to ensure effective fraud detection.
+
+The project, including all relevant code and findings, was submitted in PDF format as per the instructions in the attached document.
+
+## 📋 Dataset Overview
 
 The dataset consists of 10 variables:
-* step: represents a unit of time where 1 step equals 1 hour
-* type: type of online transaction
-* amount: the amount of the transaction
-* nameOrig: customer starting the transaction
-* oldbalanceOrg: balance before the transaction
-* newbalanceOrig: balance after the transaction
-* nameDest: recipient of the transaction
-* oldbalanceDest: initial balance of recipient before the transaction
-* newbalanceDest: the new balance of recipient after the transaction
-* isFraud: fraud transaction
 
-## Python Libraries
-pandas, numpy, seaborn, matplotlib, tabulate, sklearn
+| Variable           | Description                                           |
+|--------------------|-------------------------------------------------------|
+| `step`             | Represents a unit of time (1 step = 1 hour)         |
+| `type`             | Type of online transaction                            |
+| `amount`           | Amount of the transaction                             |
+| `nameOrig`         | Customer initiating the transaction                   |
+| `oldbalanceOrg`    | Balance before the transaction                        |
+| `newbalanceOrig`   | Balance after the transaction                         |
+| `nameDest`         | Recipient of the transaction                          |
+| `oldbalanceDest`   | Initial balance of recipient before the transaction   |
+| `newbalanceDest`   | New balance of recipient after the transaction        |
+| `isFraud`         | Indicates if the transaction is fraudulent (1 = yes, 0 = no) |
 
-Basic machine learning pipeline was implemented for classifying fraudulent online payments using a given dataset
+## 📚 Python Libraries Used
 
-## Conclusion
-The RandomForestClassifier showed how machine learning can be applied to detect fraudulent transactions based on historical data.
+- `pandas`
+- `numpy`
+- `seaborn`
+- `matplotlib`
+- `tabulate`
+- `sklearn`
+
+A basic machine learning pipeline was implemented to classify fraudulent online payments using the given dataset.
+
+## 🚀 Conclusion
+
+The **RandomForestClassifier** demonstrated the effectiveness of machine learning in detecting fraudulent transactions based on historical data. This project highlights the potential of advanced analytical techniques to improve online payment security and reduce financial fraud.
+
+---
