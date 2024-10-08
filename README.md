@@ -1,6 +1,6 @@
 # 💳 Machine Learning Internship Project: Online Payments Fraud Detection
 
-This project focuses on developing a machine learning model to classify online payment transactions as either fraudulent or non-fraudulent. Utilizing a dataset from Kaggle that includes historical transaction data, the goal is to identify patterns and features indicative of fraud. Key aspects of the project include data preprocessing, training a classification model, and evaluating its performance to effectively detect fraudulent transactions. The final deliverable includes the project code and findings, provided in PDF format, demonstrating the application of machine learning techniques to enhance online payment security.
+This project focuses on developing a machine learning model to classify online payment transactions as either fraudulent or non-fraudulent. Utilizing a dataset from Plasmid that includes historical transaction data, the goal is to identify patterns and features indicative of fraud. Key aspects of the project include data preprocessing, training a classification model, and evaluating its performance to effectively detect fraudulent transactions. The final deliverable includes the project code and findings, provided in PDF format, demonstrating the application of machine learning techniques to enhance online payment security.
 
 ## 📊 Project Components
 
